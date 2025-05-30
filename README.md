@@ -16,7 +16,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/ваш-логин/cursor-tracker.git
+git clone https://github.com/Marutyan96/cursor-tracking.git
 cd cursor-tracker
 ```
 
@@ -47,16 +47,14 @@ npm run build
 
 Откройте в браузере: [http://localhost:3000](http://localhost:3000)
 
-## Docker-версия (рекомендуется)
-```bash
-docker-compose up --build
-```
-Доступно на [http://localhost:3000](http://localhost:3000)
 
 ## Структура БД (Sequelize)
 Таблицы создаются автоматически при первом запуске:
 - `ConnectionLogs` - история подключений
 - `MovementLogs` - история перемещений
 
-## Демонстрация
-[Ссылка на видео-демонстрацию]()
+## Демонстрация работы
+Скриншоты приложения находятся в папке [images/](./images):
+
+1. [Основной интерфейс](./images/screenshot1.png) - отображение курсора в квадратной области 300x300
+2. [История действий](./images/screenshot2.png) - журнал перемещений и подключений
